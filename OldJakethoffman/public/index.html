@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preload" as="font" href="/fonts/JetBrainsMono-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" as="font" href="/fonts/JetBrainsMono-Regular.woff" type="font/woff" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Jake Hoffman</title>
+
+    </head>
+    <body>
+        <div class="left">
+            <div id="left-top"></div>
+            <div id="left-bottom">
+                <div id="circle" class="left-bottom"><div id="photo"></div></div>
+                <div class="left-bottom"><a class="left-link" href="https://github.com/jakehffn">@GitHub</a></div>
+                <div class="left-bottom"><a class="left-link" href="https://twitter.com/_OkWater">@Twitter</a></div>
+            </div>
+        </div>
+        <div class="right">
+            <header>
+                <div id="header-right">
+                    <ul class="header-right"><a class="header-link" id="links">Links</a></ul>
+                    <ul class="header-right"><a class="header-link" id="projects">Projects</a></ul>
+                    <ul class="header-right"><a class="header-link" id="thoughts">Thoughts</a></ul>
+                </div>
+            </header>
+            <div id="content"></div>
+        </div>
+        
+        <script src="/__/firebase/7.17.2/firebase.js"></script>
+        <!-- <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script> -->
+
+        <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+        <!-- <script src="/__/firebase/7.17.2/firebase-analytics.js"></script> -->
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="/__/firebase/7.17.2/firebase-auth.js"></script>
+        <script src="/__/firebase/7.17.2/firebase-firestore.js"></script>
+        <script defer src="/__/firebase/7.17.2/firebase-database.js"></script>
+        
+        <script defer src="/__/firebase/7.17.2/firebase-auth.js"></script>
+        <script defer src="/__/firebase/7.17.2/firebase-storage.js"></script>
+
+        <script defer src="/__/firebase/init.js"></script>
+
+        <script src='index.js'></script>
+    </body>
+</html>
